@@ -53,7 +53,7 @@ function App() {
        <Header />
        <div style={{ textAlign: 'center', margin: '20px 0' }}>
          {/* Display the uppercase timestamp */}
-         <h2>Current Date and Time: {uppercaseTimestamp}</h2>
+         <h2>Today Date and Time: {uppercaseTimestamp}</h2>
        </div>
        <Routes>
          <Route path="/" element={<Home categories={categories} />} />
